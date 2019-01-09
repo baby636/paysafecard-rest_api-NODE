@@ -38,7 +38,7 @@ PaysafecardPayment.prototype.getResponse = function() {
   }
 };
 
-PaysafecardPayment.prototype.getRequestPrameter = function() {
+PaysafecardPayment.prototype.getRequestParameter = function() {
   // get request parameter
   var self = this;
 
