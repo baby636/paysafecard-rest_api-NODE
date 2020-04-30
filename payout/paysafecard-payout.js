@@ -261,6 +261,8 @@ function doRequest(self, parameter, method, headers, success) {
     headers = {};
   }
   headers['Authorization'] = 'Basic ' + new Buffer(self.key).toString('base64');
+  headers['Content-Type'] = 'application/json';
+
   options.headers = headers;
 
   self.requestParameter = parameter;
